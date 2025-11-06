@@ -38,4 +38,4 @@ jobs:
       run: |
         curl -X POST -H 'Content-type: application/json' \
         --data '{"text":" Fallo en el pipeline de la Calculadora Java. Revisa las pruebas en GitHub Actions."}' \
-        ${{ secrets.SLACK_WEBHOOK_URL }}
+        $ {{ secrets.SLACK_WEBHOOK_URL }}
